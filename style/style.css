@@ -26,9 +26,9 @@ main {
 section#telefone {
     position: absolute;
     top: 50%;
-    left: 40%;
-    transform: translate(-40%, -50%);
-
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
@@ -42,19 +42,21 @@ iframe#tela {
     height: 471px;
 }
 
-section#redes-sociais {
-    text-align: right;
+p#redes-sociais {
+    text-align: center;
+    position: relative;
+    bottom: 59px;
 }
 
-section#redes-sociais img {
+p#redes-sociais img {
     width: 50px;
-    margin: 12px;
+    margin: 0px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
     box-sizing: border-box;
 }
 
-section#redes-sociais img:hover {
+p#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.637);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
